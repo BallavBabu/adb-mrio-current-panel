@@ -1,6 +1,6 @@
 # Harmonized ADB Multi-Regional Input–Output (MRIO) Panel: Current Prices (2000–2024)
+[![Release](https://img.shields.io/github/v/release/BallavBabu/adb-mrio-current-panel)](https://github.com/BallavBabu/adb-mrio-current-panel/releases)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17694852.svg)](https://doi.org/10.5281/zenodo.17694852)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 This repository provides the **R source code and documentation** for constructing and using the dataset:
 
