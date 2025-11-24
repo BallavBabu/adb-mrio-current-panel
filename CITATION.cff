@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or the associated MRIO panel, please cite the dataset below."
+title: "Harmonized ADB Multi-Regional Input–Output (MRIO) Panel: Current Prices (2000–2024)"
+type: dataset
+authors:
+  - family-names: Bhusal
+    given-names: Lila Ballav
+year: 2025
+doi: 10.5281/zenodo.17694852
+url: "https://doi.org/10.5281/zenodo.17694852"
+repository-code: "https://github.com/USERNAME/adb-mrio-current-panel"
+abstract: >
+  R code and documentation for constructing and using a harmonized 63-economy,
+  35-sector MRIO panel in current prices, derived from the Asian Development Bank's MRIO database
+  for 2000 and 2007–2024.
+license: "CC-BY-4.0"
+preferred-citation:
+  type: dataset
+  authors:
+    - family-names: Bhusal
+      given-names: Lila Ballav
+  year: 2025
+  title: "Harmonized ADB Multi-Regional Input–Output (MRIO) Panel: Current Prices (2000–2024)"
+  doi: 10.5281/zenodo.17694852
+  url: "https://doi.org/10.5281/zenodo.17694852"
