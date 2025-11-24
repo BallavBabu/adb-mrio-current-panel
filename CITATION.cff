@@ -8,7 +8,7 @@ authors:
 year: 2025
 doi: 10.5281/zenodo.17694852
 url: "https://doi.org/10.5281/zenodo.17694852"
-repository-code: "https://github.com/USERNAME/adb-mrio-current-panel"
+repository-code: "https://github.com/BallavBabu/adb-mrio-current-panel"
 abstract: >
   R code and documentation for constructing and using a harmonized 63-economy,
   35-sector MRIO panel in current prices, derived from the Asian Development Bank's MRIO database
