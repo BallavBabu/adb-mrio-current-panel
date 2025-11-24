@@ -21,7 +21,6 @@ The compiled panel itself is published on Zenodo as an `.rds` file. This reposit
 
 The panel is derived from the official ADB MRIO database in current prices:
 
-- Asian Development Bank (ADB). (2024). *Key Indicators for Asia and the Pacific 2024*. Manila.  
 - ADB MRIO portal (current): <https://kidb.adb.org/globalization/current>
 
 Users should always cite the original ADB source when using this data in research.
@@ -63,18 +62,18 @@ A detailed description of the data structure is provided in [`data-structure.md`
 ## 3. Repository Contents
 
 - `scripts/01_build_panel_current.R`  
-  Code to read ADB MRIO Excel files (63-country configuration) and build the current-price panel object.
+  Code to read ADB MRIO Excel files (63-economy configuration) and build the current-price panel object.
 
 - `scripts/02_checks_current.R`  
   Consistency checks, including:
-  - X ≈ B %*% Y_R (global and by country),  
-  - row identity X_i ≈ sum_j Z_ij + Y_R_i,  
-  - reconstruction check Z ≈ A %*% X̂.
+  - `X ≈ B %*% Y_R` (global and by country),  
+  - row identity `X_i ≈ sum_j Z_ij + Y_R_i`,  
+  - reconstruction check `Z ≈ A %*% X̂`.
 
 - `scripts/03_examples_current.R`  
   Example MRIO workflows using the panel:
   - global output from final demand,  
-  - value-added content of final demand using v̂ %*% B %*% f,  
+  - value-added content of final demand using `v̂ %*% B %*% f`,  
   - country-level value-added supported by final demand.
 
 - `data-structure.md`  
@@ -97,7 +96,7 @@ Install required packages:
 
 ```r
 install.packages(c("readxl", "Matrix", "dplyr", "stringr"))
-```
+
 
 ### 4.2 Loading the panel (from Zenodo)
 
@@ -166,5 +165,9 @@ If you use this panel in your work, please cite:
   Bhusal, L. B. (2025). *Harmonized ADB Multi-Regional Input–Output (MRIO) Panel: Current Prices (2000–2024)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.17694852
 
 - **Original data source**  
-  Asian Development Bank (ADB). (2024). *Key Indicators for Asia and the Pacific 2024*. Manila.  
+  Asian Development Bank (ADB). 
   MRIO portal: <https://kidb.adb.org/globalization/current>
+
+## 7. Licensing
+
+Code and documentation (this repository): MIT License (see `LICENSE`).
